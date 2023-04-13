@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section>            
+            <h3>HOME</h3>            
+            <div class="container--points">
+                <p id="home-el">0</p>
+            </div>
+            <div class="container--points__buttons">
+                <button onclick="sum1Home()">+1</button>
+                <button onclick="sum2Home()">+2</button>
+                <button onclick="sum3Home()">+3</button>
+            </div>
+        </section>
+        <section>          
+            <h3>GUEST</h3>
+            <div class="container--points">
+                <p id="guest-el">0</p>
+            </div>
+            <div class="container--points__buttons">
+                <button onclick="sum1Guest()">+1</button>
+                <button onclick="sum2Guest()">+2</button>
+                <button onclick="sum3Guest()">+3</button>
+            </div>
+        </section>
+    </main>
+    <button class="reset" onclick="resetGame()">RESET THE GAME</button>
+    <script src="index.js"></script>
+</body>
+</html>
